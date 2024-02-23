@@ -8,6 +8,7 @@ import userRoutes from './routes/user.route.js';
 dotenv.config();
 mongoose.connect(
     process.env.MONGO
+    
 ).then(()=>{
     console.log('MongoDb is connected');
 }).catch(err =>{
