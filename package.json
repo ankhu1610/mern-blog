@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "nodemon api/index.js",
     "start": "node api/index.js",
-    "build": "npm install && npm install -- prefix client && npm  run build --prefix client"
-  },
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ankhu1610/mern-blog.git"
